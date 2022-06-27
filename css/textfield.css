@@ -1,0 +1,17 @@
+.text-field{
+    -fx-background-color:-fx-text-box-border, -fx-background ;
+
+    -fx-background-insets: 0, 0 0 1 0 ;
+
+    -fx-background-radius: 0 ;
+
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background;
+}
+
+#searchField{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20 20 20 20;
+    -fx-border-color: #E0E5ED;
+}
