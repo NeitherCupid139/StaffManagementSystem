@@ -32,7 +32,7 @@
 
 [代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
 
-![image-20220627165120136](C:\Users\Fu-yen Chung\AppData\Roaming\Typora\typora-user-images\image-20220627165120136.png)
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/Pic/login.png)
 
 ## 注册界面
 
