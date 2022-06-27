@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: #F8FBFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DisplayController">
+   <children>
+      <Button fx:id="displayButton" layoutX="1198.0" layoutY="792.0" mnemonicParsing="false" onAction="#display" prefHeight="29.0" prefWidth="83.0" stylesheets="@css/button.css" text="显示" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sortButton" layoutX="1100.0" layoutY="792.0" mnemonicParsing="false" onAction="#sort" prefHeight="36.0" prefWidth="83.0" stylesheets="@css/button.css" text="升序" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Text fx:id="assistant" layoutX="325.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="assprofessor" layoutX="720.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="66.6666259765625" />
+      <Text fx:id="professor" layoutX="924.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="40.0" />
+      <Text fx:id="lecturer" layoutX="497.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="80.0" layoutX="80.0" strokeType="INSIDE" width="1360.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002fa7" height="900.0" strokeType="INSIDE" width="80.0" />
+      <Button fx:id="home" layoutX="120.0" layoutY="26.0" mnemonicParsing="false" onAction="#menu" style="-fx-background-color: white;" text="首页">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="275.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="助教" />
+      <Text layoutX="452.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="讲师" />
+      <Text layoutX="668.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="副教授" />
+      <Text layoutX="880.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="教授" />
+      <Button fx:id="sortButton1" layoutX="998.0" layoutY="792.0" mnemonicParsing="false" onAction="#sort1" prefHeight="36.0" prefWidth="83.0" stylesheets="@css/button.css" text="降序" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="192.0" layoutY="241.0" prefHeight="539.0" prefWidth="1213.0">
+         <columns>
+            <TableColumn fx:id="nameCol" prefWidth="102.0" text="姓名" />
+            <TableColumn fx:id="genderCol" prefWidth="67.33334350585938" text="性别" />
+            <TableColumn fx:id="idCol" minWidth="0.0" prefWidth="174.00003051757812" text="身份证" />
+            <TableColumn fx:id="dateCol" minWidth="0.0" prefWidth="93.3333740234375" text="出生日期">
+               <columns>
+                  <TableColumn fx:id="dateCol1" minWidth="0.0" prefWidth="93.3333740234375" text="年" />
+                  <TableColumn fx:id="dateCol2" minWidth="0.0" prefWidth="93.3333740234375" text="月" />
+                  <TableColumn fx:id="dateCol3" minWidth="0.0" prefWidth="93.3333740234375" text="日" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="numCol" prefWidth="154.0" text="工号" />
+            <TableColumn fx:id="telCol" prefWidth="176.0" text="电话号码" />
+            <TableColumn fx:id="jobCol" prefWidth="116.666748046875" text="职称" />
+            <TableColumn fx:id="partCol" prefWidth="138.666748046875" text="系部" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: #F8FBFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InputController">
+   <children>
+      <ImageView fitHeight="731.0" fitWidth="1251.0" layoutX="123.0" layoutY="114.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/bac.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameField" layoutX="620.0" layoutY="244.0" prefHeight="41.0" prefWidth="195.0" stylesheets="@css/textfield.css" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="80.0" layoutX="80.0" strokeType="INSIDE" width="1360.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002fa7" height="900.0" strokeType="INSIDE" width="80.0" />
+      <Text fill="WHITE" layoutX="633.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="姓名" wrappingWidth="59.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="633.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="系部" wrappingWidth="37.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="633.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="职称" wrappingWidth="37.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="910.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="电话号码" wrappingWidth="83.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="partField" layoutX="620.0" layoutY="567.0" prefHeight="41.0" prefWidth="195.0" stylesheets="@css/textfield.css" />
+      <TextField fx:id="genderField" layoutX="620.0" layoutY="360.0" prefHeight="41.0" prefWidth="195.0" stylesheets="@css/textfield.css" />
+      <TextField fx:id="idField" layoutX="903.0" layoutY="360.0" prefHeight="41.0" prefWidth="314.0" stylesheets="@css/textfield.css" />
+      <Button fx:id="inputButton" layoutX="1097.0" layoutY="722.0" mnemonicParsing="false" onAction="#input" prefHeight="41.0" prefWidth="120.0" stylesheets="@css/button.css" text="添加" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <DatePicker fx:id="dateField" layoutX="903.0" layoutY="245.0" prefHeight="41.0" prefWidth="314.0" />
+      <Text fill="WHITE" layoutX="633.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="性别" wrappingWidth="37.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="910.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="出生日期" wrappingWidth="83.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="910.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="身份证" wrappingWidth="59.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="numField" layoutX="903.0" layoutY="465.0" prefHeight="41.0" prefWidth="314.0" stylesheets="@css/textfield.css" />
+      <TextField fx:id="telField" layoutX="903.0" layoutY="567.0" prefHeight="41.0" prefWidth="314.0" stylesheets="@css/textfield.css" />
+      <Text fill="WHITE" layoutX="910.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="工号" wrappingWidth="59.33341407775879">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="693.0" fitWidth="424.0" layoutX="185.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/idcard.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="jobField" layoutX="620.0" layoutY="465.0" prefHeight="41.0" prefWidth="195.0" stylesheets="@css/textfield.css" />
+      <Button fx:id="home" layoutX="116.0" layoutY="26.0" mnemonicParsing="false" onAction="#menu" style="-fx-background-color: white;" text="首页">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="alert" fill="WHITE" layoutX="244.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="218.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
