@@ -32,39 +32,43 @@
 
 [代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
 
-![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/Pic/login.png)
-
-## 注册界面
-
-You could find shortcut keys in the right side of menu items from menu bar. For more shortcut key details and custom key bindings, you can refer [here](http://support.typora.io/Shortcut-Keys/).
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/login.png)
 
 ## 菜单界面
 
-![image-20220627165245816](C:\Users\Fu-yen Chung\AppData\Roaming\Typora\typora-user-images\image-20220627165245816.png)
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/menu.png)
 
 ## 输入信息界面
 
-**Typora** is able to analyze styles of the text content in your clipboard when pasting. For example, after pasting a `<h1>HEADING</h1>` from some website, typora will keep the 'first level heading’ format instead of paste ‘heading’ as plain text. 
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
 
-To **paste as markdown source** or plain text, you should use `paste as plain text` or press the shortcut key: `shift+cmd+v`.
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/input.png)
 
 ## 搜索信息界面
 
-Please refer to `Help` → `Custom Themes` from menu bar.
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/search.png)
 
 ## 修改信息界面
 
-Currently Typora only support to export as **PDF** or **HTML**. More data format support as import/export will be integrated in future.
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/modify.png)
 
 ## 删除信息界面
 
-Typora support  auto save feature, user could enable it from preference panel. 
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
 
-Typora does not provide professional version control and file backup feature, but typora would backup the last file content from time to time automatically, so even when typora crashes or users forget to save the file before close, it is possible to recovery most of the work by clicking `Recovery Unsaved Drafts` from preference folder, and copy out backed-up files. The File name in this folder is consists of last saved date, originally file name and last saved timestamp.
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/delete.png)
 
 ## 显示信息界面
 
-<https://support.typora.io/>
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+
+![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/display.png)
 
 ## 声明
 
