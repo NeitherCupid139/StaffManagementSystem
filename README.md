@@ -30,7 +30,7 @@
 
 ## 登录界面
 
-[代码](https://help.github.com/articles/github-flavored-markdown/)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
 
 ![image-20220627165120136](C:\Users\Fu-yen Chung\AppData\Roaming\Typora\typora-user-images\image-20220627165120136.png)
 
