@@ -18,6 +18,7 @@
 `SceneBuilder`[使用教程](https://www.bilibili.com/video/BV1Bi4y1u775?spm_id_from=333.337.search-card.all.click&vd_source=f5f279ce6eb5aec049d9d0f2e44d09c6)
 
 **教职工管理系统**中一些按钮或者文本框使用了CSS样式，它可以使这些控件变得更加美观（❗JavaFX中的JavaFX CSS 与CSS写法略有不同，你可以在官网文档里查看具体的写法）
+
 `JavaFX CSS`[使用教程](https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html)
 
 **教职工管理系统**使用`ArrayList`来对数据进行增删改查，当然你可以使用`LinkedList`或者`Map`等数据结构来完成数据的处理（<u>这取决于你的掌握程度和偏好</u>）
