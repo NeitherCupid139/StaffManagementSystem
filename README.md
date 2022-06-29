@@ -36,37 +36,37 @@
 
 ## 菜单界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/menu.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/menu.png)
 
 ## 输入信息界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/input.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/input.png)
 
 ## 搜索信息界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/search.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/search.png)
 
 ## 修改信息界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/modifyInfo.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/modify.png)
 
 ## 删除信息界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/modifyInfo.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/delete.png)
 
 ## 显示信息界面
 
-[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/controller/LoginController.java)👈
+[代码](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/fxml/display.fxml)👈
 
 ![img](https://github.com/NeitherCupid139/StaffManagementSystem/blob/main/pic/display.png)
 
